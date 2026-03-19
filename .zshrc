@@ -111,7 +111,7 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # Alias mis
-alias c="code"
+alias c="flatpak run com.visualstudio.code"
 alias gs="git status"
 alias ga="git add"
 alias gaa="git add -A"
@@ -131,7 +131,7 @@ alias pwn="ssh hacker@pwn.college"
 clean() {
 	sudo dnf autoremove
 }
-alias update="zref && zu"
+alias update="dnfu"
 # alias vim="nvim"
 
 # Rust
@@ -153,20 +153,20 @@ dotfiles_sync() {
 
 # Alias dnf
 
-# alias dnfs="dnf search"
-# alias dnfu="sudo dnf update"
-# alias dnfi="sudo dnf install"
-# alias dnfr="sudo dnf remove"
+alias dnfs="dnf search"
+alias dnfu="sudo dnf update"
+alias dnfi="sudo dnf install"
+alias dnfr="sudo dnf remove"
 #
 #
 # Alias zypper
-alias zs="zypper search"
-alias zu="sudo zypper up"
-alias zi="sudo zypper in"
-alias zr="sudo zypper rm -u"
-alias zref="sudo zypper ref"
-alias zp="sudo zypper patch"
-alias z="sudo zypper"
+# alias zs="zypper search"
+# alias zu="sudo zypper up"
+# alias zi="sudo zypper in"
+# alias zr="sudo zypper rm -u"
+# alias zref="sudo zypper ref"
+# alias zp="sudo zypper patch"
+# alias z="sudo zypper"
 
 # Custom build and run
 alias py="python"

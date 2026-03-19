@@ -1,0 +1,7 @@
+# This file is created by ibus-daemon, please do not modify it.
+# This file allows processes on the machine to find the
+# ibus session bus with the below address.
+# If the IBUS_ADDRESS environment variable is set, it will
+# be used rather than this file.
+IBUS_ADDRESS=unix:path=/home/elgaeraw/.cache/ibus/dbus-f15laGMD,guid=bbcc21c48125479d56e8b2e169bc0a51
+IBUS_DAEMON_PID=3063
