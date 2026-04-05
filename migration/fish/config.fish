@@ -61,7 +61,6 @@ function clean
 end
 
 function dotfiles_sync
-    cp -r ~/migration ~/dotfiles/
     cp -r ~/.config ~/dotfiles/
     cp ~/.zshrc ~/dotfiles/
     # cp -r ~/.fonts ~/dotfiles/

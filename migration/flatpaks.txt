@@ -1,0 +1,5 @@
+com.spotify.Client
+com.surfshark.Surfshark
+com.visualstudio.code
+im.riot.Riot
+org.blender.Blender

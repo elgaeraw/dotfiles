@@ -3,5 +3,5 @@
 # ibus session bus with the below address.
 # If the IBUS_ADDRESS environment variable is set, it will
 # be used rather than this file.
-IBUS_ADDRESS=unix:path=/home/elgaeraw/.cache/ibus/dbus-f15laGMD,guid=bbcc21c48125479d56e8b2e169bc0a51
-IBUS_DAEMON_PID=3063
+IBUS_ADDRESS=unix:path=/home/elgaeraw/.cache/ibus/dbus-kYM75XPC,guid=d4b442a84dcd1e9aab334f3969d2278d
+IBUS_DAEMON_PID=3121
